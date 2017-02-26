@@ -61,7 +61,7 @@ def calculateHappiness(C):
 	giftCsv = open("./gifts.csv")
 	Gifts = csv.reader(giftCsv,delimiter = ",")
 	GiftList = []
-	gP1 = 0
+	gP1 = 1
 	gP2 = 0
 	gV = 0
 	bH = 0
